@@ -29,7 +29,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'aşçı',
+  name: 'ascii',
   description: 'Yazınızı ascii art Olarak Yazar.',
-  usage: 'aşçı'
+  usage: 'ascii'
 };
