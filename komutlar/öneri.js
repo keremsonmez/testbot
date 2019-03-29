@@ -5,10 +5,10 @@ exports.run = function(client, message, args) {
 
 	var öneri = args.slice(0).join(' ');
 	var guildID = "511647710462476303";
-	var channelID = "511646309187584004";
+	var channelID = "561271442637979648";
 	
 	if (!öneri){
-		return message.reply("Bir mesaj belirtin! Doğru kullanım: ** ${prefix}öneri <mesaj> **");
+		return message.reply("Bir mesaj belirtin! Doğru kullanım: **-öneri <mesaj>**");
 	} else {
 		
 		var embed = new Discord.RichEmbed()
