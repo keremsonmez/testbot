@@ -10,7 +10,6 @@ module.exports = client => {
   var bot = new Discord.Client();
 
 bot.on("ready", () => {
-  console.log("Botumuz şuanda  " + bot.guilds.size + " serverda hizmet veriyor");
-  bot.user.setGame("Subscroob,Like", "https://www.twitch.tv/quadria")
-  
+  client.user.setPresence({ game: { name: 'with depression' }, status: 'online' });
+  bot.user.setGame('with depression', 'https://www.twitch.tv/quadria');
 });
